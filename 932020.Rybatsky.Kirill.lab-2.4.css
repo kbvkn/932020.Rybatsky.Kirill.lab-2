@@ -1,0 +1,16 @@
+.grid-container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    margin: 6px;
+    font-size: 16px;
+    flex-basis: 600px;
+    height: fit-content;
+    color: white;
+    background-color: blue;
+}

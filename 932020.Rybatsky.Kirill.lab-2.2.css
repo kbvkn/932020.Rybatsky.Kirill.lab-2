@@ -1,0 +1,49 @@
+.grid-container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: grid;
+
+    grid-template-columns: 25% auto 200px;
+    grid-template-rows: 10% auto 5%;
+
+}
+
+.grid-item {
+    padding: 8px;
+    font-size: 16px;
+    height: fit-content;
+
+}
+
+.grid-header {
+    grid-column: 1 / span 3;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.grid-footer {
+    text-align: center;
+    grid-column: 1 / span 3;
+}
+
+a {
+    color: #FDE95E;
+    padding: 4px;
+}
+
+.color1 {
+    background-color: #EAEAEA;
+}
+
+.color2 {
+    background-color: #C8FC98;
+}
+
+.color3 {
+    background-color: black;
+}
+
+.color4 {
+    background-color: #FFFF80;
+}

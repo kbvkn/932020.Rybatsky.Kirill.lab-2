@@ -1,0 +1,35 @@
+.grid-container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: grid;
+    grid-template-columns: 200px auto;
+    grid-template-rows: max-content 1fr;
+    background-color: aquamarine;
+
+}
+
+.bisque-block {
+    background-color: bisque;
+    grid-column: 1;
+}
+
+.aquamarine-block {
+    background-color: aqua;
+    grid-column: 1;
+}
+
+.content {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+    background-color: #aaaaaa;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 50px;
+    background-color: limegreen;
+}

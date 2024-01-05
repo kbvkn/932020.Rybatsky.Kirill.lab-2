@@ -1,0 +1,41 @@
+.grid-container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: grid;
+    grid-template-columns: 200px auto;
+    grid-template-rows: 10% auto 5%;
+}
+
+.grid-item {
+    padding: 8px;
+    font-size: 16px;
+}
+
+.grid-header {
+    grid-column: 1 / span 2;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.grid-footer {
+    text-align: center;
+    grid-column: 1 / span 2;
+}
+
+a {
+    color: #FDE95E;
+    padding: 4px;
+}
+
+.color1 {
+    background-color: #EAEAEA;
+}
+
+.color2 {
+    background-color: #C8FC98;
+}
+
+.color3 {
+    background-color: black;
+}

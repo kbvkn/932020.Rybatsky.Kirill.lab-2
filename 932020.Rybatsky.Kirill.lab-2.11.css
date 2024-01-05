@@ -1,0 +1,14 @@
+.flex-container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    display: flex;
+    border: solid 2px;
+    border-color: green;
+    background-color: aqua;
+}
+
+img {
+    margin-left: auto;
+}

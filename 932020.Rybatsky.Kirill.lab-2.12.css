@@ -1,0 +1,25 @@
+.container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    border: solid 2px;
+    display: flex;
+    flex-wrap: wrap;
+    border-color: green;
+    background-color: aqua;
+}
+
+.content {   
+   width: 73%;
+    background-color: darkgray;
+    
+}
+
+.bisque-block {
+    padding: 10px;
+    margin-right: 5px;
+    width: 25%;
+    height: fit-content;
+    background-color: bisque;
+}

@@ -1,0 +1,15 @@
+.grid-container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.content {
+    margin: 6px;
+    width: 600px;
+    grid-column: 2;
+    color: white;
+    background-color: blue;
+}

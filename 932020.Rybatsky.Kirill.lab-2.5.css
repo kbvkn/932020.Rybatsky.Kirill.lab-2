@@ -1,0 +1,28 @@
+.grid-container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: max-content, max-content;
+}
+
+.green-content {
+    position: relative;
+    margin: 6px;
+    width: 500px;
+    grid-column: 2;
+    color: white;
+    background-color: green;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+.blue-content {
+    margin: 6px;
+    padding: 80px;
+    width: 500px;
+    grid-column: 2;
+    color: white;
+    background-color: blue;
+}
